@@ -1,0 +1,140 @@
+.hero-section {
+    height: 80vh;
+    background-color: rgb(25, 230, 140);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-section .content figure {
+    width: 200px;
+    margin: auto;
+}
+
+.hero-section .content figure img {
+    width: 100%;
+}
+
+.hero-section .content h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero-section .content h4 {
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 40px;
+}
+
+.hero-section .content a {
+    color: #000;
+    background-color: #fff;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: .2s;
+}
+.hero-section .content a:hover {
+    padding: 15px 45px;
+}
+
+.format-download {
+    padding: 50px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.format-download .content h3 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.format-download .content h4 {
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 40px;   
+}
+
+.format-download .content figure {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.format-download .content figure .type {
+    width: 150px;
+}
+
+.format-download .content figure .type img {
+    width: 100%;
+    background-size: contain;
+}
+
+.store {
+    background-color: rgb(34, 35, 38);
+    padding: 70px 15px 50px;
+    text-align: center;
+}
+
+.store .content figure {
+    width: 40%;
+    margin: auto;
+}
+
+.store .content figure img{
+    width: 100%;
+}
+
+.store .content h2 {
+    font-size: 30px;
+    margin: 40px 0px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.store .content ul {
+    list-style: none;
+    width: 100%;
+    font-weight: 900;
+    color: #fff;
+    display: flex;
+    font-size: 14px;
+    justify-content: space-around;
+}
+.store .content ul .link {
+    color: #1ed760;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.store .content ul .link:hover {
+    color: rgb(25, 230, 140);
+}
+
+@media (max-width: 760px) {
+    .hero-section .content h2 {
+        font-size: 30px;
+        font-weight: 900;
+        margin: 20px 0;
+    }
+    
+    .hero-section .content h4 {
+        font-size: 15px;
+        font-weight: 900;
+        margin-bottom: 4s0px;
+    }
+
+    .store .content figure {
+        width: 70%;
+    }
+    .store .content ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .store .content ul li {
+        margin-bottom: 20px;
+    }
+}

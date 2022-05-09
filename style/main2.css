@@ -1,0 +1,70 @@
+.main-dos {
+    /* height: 80vh; */
+    padding: 90px 55px;
+    color: #1ed760;
+    background-color: rgb(41, 65, 171);
+    background-image: url(../img/bg-2.svg);
+    
+}
+
+.main-dos h1 {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.main-dos h2 {
+    font-size: 60px;
+    font-weight: 900;
+    margin: 50px 0; 
+}
+.main-dos h3 {
+    width: 550px;
+    font-size: 19px;
+    letter-spacing: 2px;
+    margin-bottom: 60px;
+    line-height: 30px;
+}
+
+.main-dos a {
+    background-color: #1ed760;
+    padding: 13px 30px;
+    border-radius: 20px;
+    color: rgb(41, 65, 171);
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 14px;
+    transition: .2s;
+}
+
+.main-dos a:hover {
+    padding: 17px 40px;
+    border-radius: 40px;
+}
+@media (max-width: 850px) {
+    .main-dos {
+        width: 100%;
+        text-align: center;
+    }
+    .main-dos h2 {
+        font-size: 30px;
+        font-weight: 900;
+        margin: 30px 0; 
+    }
+}
+@media (max-width: 620px) {
+    .main-dos {
+        width: 100%;
+        padding: 50px 20px;
+        background-color: rgb(41, 65, 171);
+        display: flex;
+        flex-direction: column;
+    }
+    .main-dos h2 {
+        font-size: 30px;
+        font-weight: 900;
+        margin: 20px 0; 
+    }
+    .main-dos h3 {
+        width: 100%;
+        font-size: 19px;
+    }
+}
