@@ -123,7 +123,17 @@
     .hero-section .content h4 {
         font-size: 15px;
         font-weight: 900;
-        margin-bottom: 4s0px;
+        margin-bottom: 40px;
+    }
+
+    .format-download {
+        padding: 50px 20px;
+    }
+
+    .format-download .content h4 {
+        font-size: 15px;
+        font-weight: 900;
+        margin-bottom: 40px;
     }
 
     .store .content figure {
@@ -136,5 +146,12 @@
 
     .store .content ul li {
         margin-bottom: 20px;
+    }
+}
+@media (max-width: 480px) {
+    .format-download .content figure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
