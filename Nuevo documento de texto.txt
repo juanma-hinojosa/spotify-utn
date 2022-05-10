@@ -1,17 +1,1 @@
-background-color: rgb(153, 51, 153);
-color: #1ed760;
-background-color: rgb(41, 65, 171);
-background: #000;
-color: #919496;
-color: #fff;
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
-
-font-family: 'Nanum Gothic', sans-serif;
-Tasks
-
-Colocar las etiquetas A dentro de un DIV
-Colocar div a las fotos con descargas
-Colocar h1 en etiquetas a
-Responsive Design 
+Me tome la libertad de crear varios archivos css parar tener la posibiliadad de reutizar parte de los estilos en diferentes archivos
