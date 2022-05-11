@@ -128,7 +128,7 @@ body > .hero-section > section > .column-right > .text-right{
     margin-bottom: 8px;
 }
 
-body > .hero-section > section > .column-right > .text-right > i {
+body .hero-section section > .column-right > .text-right > i {
     color: #1ed760;
     margin-right: 10px;
 }
@@ -157,14 +157,14 @@ body > .hero-section > section > .column-right > .text-right > i {
         background-color: #000;
     }
 
-    body > .hero-section> section  > .column-left {
+    body  .hero-section section   .column-left {
         width: 100%;
     }
 
-    body > .hero-section > section > .central-line {
+    body  .hero-section section  .central-line {
         display: none;
     }
-    body > .hero-section > section > .column-right {
+    body  .hero-section  section  .column-right {
         display: none;
     }
 }
@@ -202,7 +202,8 @@ body > .hero-section > section > .column-right > .text-right > i {
 @media screen and (max-width:400px) {
     .hero-section {
         display: flex;
-        width: 100%;
+        height: 80vh;
+        /* width: 100%; */
     }
 
     .overlay {
@@ -214,8 +215,7 @@ body > .hero-section > section > .column-right > .text-right > i {
 
     .mobile {
         display: block;
-        display: flex;
+        /* display: flex; */
         width: 100%;
-        justify-content: center;
     }
 }
