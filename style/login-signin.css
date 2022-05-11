@@ -203,7 +203,7 @@ body .hero-section section > .column-right > .text-right > i {
     .hero-section {
         display: flex;
         height: 80vh;
-        /* width: 100%; */
+        width: 100%;
     }
 
     .overlay {
@@ -216,6 +216,6 @@ body .hero-section section > .column-right > .text-right > i {
     .mobile {
         display: block;
         /* display: flex; */
-        width: 100%;
+        /* width: 100%; */
     }
 }
